@@ -1,4 +1,10 @@
 {
+    "routes": [
+        {
+            "route": "/login",
+            "rewrite": "/.auth/login/aadb2c"
+        }
+    ],
     "navigationFallback": {
         "rewrite": "/index.html"
     },

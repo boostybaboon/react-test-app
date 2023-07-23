@@ -5,9 +5,6 @@
             "rewrite": "/.auth/login/aadb2c"
         }
     ],
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    },
     "auth": {
         "identityProviders": {
             "customOpenIdConnectProviders": {
@@ -18,7 +15,7 @@
                             "clientSecretSettingName": "AADB2C_PROVIDER_CLIENT_SECRET"
                         },
                         "openIdConnectConfiguration": {
-                            "wellKnownOpenIdConfiguration": "https://testreactb2c.b2clogin.com/testreactb2c.onmicrosoft.com/B2C_1_susi/v2.0/.well-known/openid-configuration"
+                            "wellKnownOpenIdConfiguration": "https://testreactb2c.b2clogin.com/testreactb2c.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_susi"
                         }
                     },
                     "login": {
